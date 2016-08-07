@@ -16,8 +16,9 @@ a{
 }
 p{
   text-indent: 30px;
+  text-align: left;
 }
-table, th ,td{
+/*table, th ,td{
   border: 1px solid black;
 }
 th{
@@ -43,7 +44,7 @@ div.desc {
     padding: 5px;
     text-align: center;
 }
-/*.poi
+.poi
   {color: red;
     font-size: 20;
     text-align: center;}*/
