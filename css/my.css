@@ -1,0 +1,49 @@
+body{
+  background-color: white;
+}
+h1{
+  color: red;
+  text-align: center;
+}
+h2{
+  color: red;
+  text-align: center;
+}
+
+a{
+  color: blue;
+  text-decoration: none;
+}
+p{
+  text-indent: 30px;
+}
+table, th ,td{
+  border: 1px solid black;
+}
+th{
+  background-color: green;
+  text-align: center;
+}
+th,td{
+  padding: 4px !important;
+}
+td{
+  text-align: left;
+}
+div.img-responsive {
+    margin: 2px;
+    border: 1px solid blue;
+    float: left;
+}
+
+div.img-responsive:hover {
+    border: 1px solid red;
+}
+div.desc {
+    padding: 5px;
+    text-align: center;
+}
+/*.poi
+  {color: red;
+    font-size: 20;
+    text-align: center;}*/

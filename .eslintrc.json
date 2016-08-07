@@ -1,0 +1,13 @@
+{
+    "extends": "standard",
+    "installedESLint": true,
+    "rules": {
+      "semi":[0],
+      "comma-dangle":[0],
+      "no-path-concat":[0]
+    },
+    "plugins": [
+        "standard",
+        "promise"
+    ]
+}

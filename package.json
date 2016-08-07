@@ -1,0 +1,32 @@
+{
+  "name": "test-blog-1",
+  "repository": {
+    "type": "git", 
+    "url": "https://github.com/Ch3ph06/testblog-1.git"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chernob",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "eslint": "^3.2.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.5",
+    "multer": "^1.2.0",
+    "pg": "^6.0.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.23.6"
+  },
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "eslint-config-standard": "^5.3.5",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0"
+  }
+}
