@@ -1,7 +1,7 @@
 {
   "name": "test-blog-1",
   "repository": {
-    "type": "git", 
+    "type": "git",
     "url": "https://github.com/Ch3ph06/testblog-1.git"
   },
   "version": "1.0.0",
@@ -21,7 +21,8 @@
     "multer": "^1.2.0",
     "pg": "^6.0.3",
     "pg-hstore": "^2.3.2",
-    "sequelize": "^3.23.6"
+    "sequelize": "^3.23.6",
+    "sha256": "^0.2.0"
   },
   "devDependencies": {
     "eslint": "^3.2.2",

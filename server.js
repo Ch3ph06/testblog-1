@@ -16,10 +16,14 @@ app.get('/', function (req, res) {
   res.render('index.hbs');
 });
 
+app.get('/create', function (req, res) {
+  res.render('create.hbs');
+});
+
 app.get('/posts', function (req, res) {
   models.Post.findAll().then(function (posts) {
-    function getPost (posts) {
-      return {title: posts.title, body: posts.body};
+    function getPost (post) {
+      return {id: post.id, title: post.title, body: post.body};
     };
     var postsdata = posts.map(getPost);
     res.status(200).render('posts.hbs', {posts: postsdata});
