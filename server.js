@@ -1,15 +1,14 @@
 var express = require('express');
-var multer = require('multer');
+var bodyParser = require('body-parser');
 var models = require('./models');
 var hbs = require('express-handlebars');
 
-var upload = multer();
 var app = express();
 
 app.engine('hbs', hbs({extname: 'hbs', defaultLayout: 'main.hbs', layoutDir: process.cwd() + '\\layouts', partialdir: process.cwd() + '\\partials'}));
 app.set('view engine', 'hbs');
 
-app.use(upload.single());
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 app.get('/', function (req, res) {
